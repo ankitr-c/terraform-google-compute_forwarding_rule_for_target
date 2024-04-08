@@ -8,4 +8,5 @@ resource "google_compute_forwarding_rule" "default" {
   load_balancing_scheme = "EXTERNAL"
   port_range            = var.port_range
   target                = var.google_compute_target_instance
+  ip_address            = var.ip_address
 }

@@ -34,3 +34,9 @@ variable "google_compute_target_instance" {
   default     = ""
   description = "enter the self-link of the google_compute_target_instance module that needs to be attached"
 }
+
+variable "ip_address" {
+  type        = string
+  default     = ""
+  description = "enter the ip address that needs to be attached to this forwarding rule"
+}
