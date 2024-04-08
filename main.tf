@@ -1,6 +1,5 @@
 # Create forwarding rules for directing traffic to the target instances
 resource "google_compute_forwarding_rule" "default" {
-  depends_on            = var.depends_on
   project               = var.project
   ip_protocol           = "TCP"
   name                  = var.name

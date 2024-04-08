@@ -1,9 +1,3 @@
-variable "depends_on" {
-  type        = list(string)
-  default     = []
-  description = "enter the resource or module on which the google_compute_forwarding_rule_for_target module should depend"
-}
-
 variable "name" {
   type        = string
   default     = ""
